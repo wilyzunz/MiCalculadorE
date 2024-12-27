@@ -1,0 +1,31 @@
+﻿<style >
+h1 {
+    color: skyblue;
+    background-color: forestgreen;
+}
+
+h2 {
+    color: skyblue;
+    background-color: black
+}
+
+#pa1 {
+    color: black;
+    background-color: deepskyblue;
+    font-family: 'Bradley Hand ITC', Bradley Hand ITC, sans-serif p
+}
+
+#pa2 {
+    color: gold;
+    background-color: deepskyblue;
+    font-family: 'Bradley Hand ITC', Bradley Hand ITC, sans-serif
+}
+
+input{
+    
+    background-color: firebrick
+}
+button {
+    color: red;
+    background-color: black; 
+}

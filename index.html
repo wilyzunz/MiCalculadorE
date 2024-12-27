@@ -1,0 +1,88 @@
+﻿<!--<html>
+<head>
+    <title>MiCalculadoraE</title>
+    <link rel="stylesheet" href="StyleSheet1.css" />
+    <script>
+        function sumar() {
+            alert("su reultado es " + (Number(txtNume1.value) + Number(txtNume2.value)));
+        }
+        function resta() {
+            alert("su resta es " + (Number(txtNume1.value) - Number(txtNume2.value)));
+        }
+
+        function multiplicar() {
+            alert("su multiplicación es " + (Number(txtNume1.value) * Number(txtNume2.value)));
+        }
+
+        function dividir() {
+            alert("su división es " + (Number(txtNume1.value) / Number(txtNume2.value)));
+        }
+
+
+    </script>
+</head>
+<body>
+    <h1 style="color:antiquewhite;background-color:black"> askjdskjdnkcsdjkcsjnkd </h1>
+    <h2 style="color:antiquewhite;background-color:black"> askjdskjdnkcsdjkcsjnkd </h2>
+    <p id="pa1">awefskjdfskdrugksdursgknufjsvnkdfjvknsdjfkvnsdjfkvsdjfsvkdfnjvksdfjvksdfnjvksdfvjksdfjvskdfvjskdfvksdfjvksdvjskdfvjskdvksdjvksdfjksdfvnjskdf</p>
+    <p id="pa2">awefskjdfskdrugksdursgknufjsvnkdfjvknsdjfkvnsdjfkvsdjfsvkdfnjvksdfjvksdfnjvksdfvjksdfjvskdfvjskdfvksdfjvksdvjskdfvjskdvksdjvksdfjksdfvnjskdf</p>
+
+    <input id="txtNume1" type="number" placeholder="Digite el numero1" />
+    <input id="txtNume2" type="number" placeholder="Digite el numero 2" />
+    <button onclick="sumar()">+</button>
+    <button onclick="resta()">-</button>
+    <button onclick="multiplicar()">*</button>
+    <button onclick="dividir()">/</button>
+</body>
+</html>-->
+
+<html>
+<head>
+    <title>MiCalculadoraE</title>
+    <link rel="stylesheet" href="StyleSheet1.css" />
+    <script src="Script1.js"></script>
+</head>
+
+<body>
+    <!--<h1 style="color:antiquewhite;background-color:black"> askjdskjdnkcsdjkcsjnkd </h1>
+    <h2 style="color:antiquewhite;background-color:black"> askjdskjdnkcsdjkcsjnkd </h2>
+    <p id="pa1">awefskjdfskdrugksdursgknufjsvnkdfjvknsdjfkvnsdjfkvsdjfsvkdfnjvksdfjvksdfnjvksdfvjksdfjvskdfvjskdfvksdfjvksdvjskdfvjskdvksdjvksdfjksdfvnjskdf</p>
+    <p id="pa2">awefskjdfskdrugksdursgknufjsvnkdfjvknsdjfkvnsdjfkvsdjfsvkdfnjvksdfjvksdfnjvksdfvjksdfjvskdfvjskdfvksdfjvksdvjskdfvjskdvksdjvksdfjksdfvnjskdf</p>-->
+    <div>
+        <button onclick="sumar()">+</button>
+        <button onclick="resta()">-</button>
+        <button onclick="multiplicar()">*</button>
+        <button onclick="dividir()">/</button>
+    </div>
+
+    <div>
+
+        <input id="txtNume1" type="number" placeholder="Digite el numero1" />
+    </div>
+    <div>
+        <input id="txtNume2" type="number" placeholder="Digite el numero 2" />
+    </div>
+        <div>
+            <button onclick="Escribir ('1')" id="btn1">1</button>
+            <button onclick="Escribir ('2')" id="btn2">2</button>
+            <button onclick="Escribir ('3')" id="btn3">3</button>
+        </div>
+        <div>
+            <button onclick="Escribir ('4')" id="btn4">4</button>
+            <button onclick="Escribir ('5')" id="btn5">5</button>
+            <button onclick="Escribir ('6')" id="btn6">6</button>
+        </div>
+
+        <div>
+            <button onclick="Escribir ('7')" id="btn7">7</button>
+            <button onclick="Escribir ('8')" id="btn8">8</button>
+            <button onclick="Escribir ('9')" id="btn9">9</button>
+        </div>
+        <div>
+            <button onclick="borrar ('C')" id="btnCE">C</button>
+            <button onclick="Escribir ('0')" id="btn0">0</button>
+            <button onclick="operacion()" id="btnz">=</button>
+
+        </div>
+</body>
+</html> 
